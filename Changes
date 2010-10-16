@@ -1,3 +1,7 @@
+[Changes for 0.05 - 2010-10-16]
+
+* More Module::Build, README and test file cleanups.
+
 [Changes for 0.04 - 2010-10-16]
 
 * LICENSING CHANGE: This compilation and all individual files in it

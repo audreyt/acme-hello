@@ -1,5 +1,5 @@
 package Acme::Hello;
-$Acme::Hello::VERSION = '0.04';
+$Acme::Hello::VERSION = '0.05';
 
 use strict;
 use Acme::Hello::I18N;
@@ -20,11 +20,11 @@ This document describes version 0.04 of B<Acme::Hello>.
 
 =head1 SYNOPSIS
 
-    use Acme::Hello;	# exports hello() by default
-    hello();		# procedure call interface
+    use Acme::Hello;    # exports hello() by default
+    hello();            # procedure call interface
 
     my $obj = Acme::Hello->new;
-    $obj->hello;	# object-oriented interface
+    $obj->hello;        # object-oriented interface
 
 =cut
 
@@ -70,10 +70,3 @@ This work is published from Taiwan.
 L<http://creativecommons.org/publicdomain/zero/1.0>
 
 =cut
-
-# Local variables:
-# c-indentation-style: bsd
-# c-basic-offset: 4
-# indent-tabs-mode: nil
-# End:
-# vim: expandtab shiftwidth=4:

@@ -5,7 +5,7 @@ use Module::Build;
 
 Module::Build->new(
     dist_name           => 'Acme-Hello',
-    dist_version        => '0.04',
+    dist_version        => '0.05',
     license             => 'CC0',
     create_makefile_pl  => 'small',
     sign                => 1,
@@ -23,11 +23,3 @@ Module::Build->new(
         'perl' => '5.005',
     },
 )->create_build_script;
-
-__END__
-# Local variables:
-# c-indentation-style: bsd
-# c-basic-offset: 4
-# indent-tabs-mode: nil
-# End:
-# vim: expandtab shiftwidth=4:

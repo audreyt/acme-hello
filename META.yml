@@ -12,13 +12,13 @@ name: Acme-Hello
 provides:
   Acme::Hello:
     file: lib/Acme/Hello.pm
-    version: 0.04
+    version: 0.05
   Acme::Hello::I18N:
     file: lib/Acme/Hello/I18N.pm
-    version: 0.03
+    version: 0.05
 recommends:
   Locale::Maketext: 0.20
   Locale::Maketext::Lexicon: 0.15
 requires:
   perl: 5.005
-version: 0.04
+version: 0.05
